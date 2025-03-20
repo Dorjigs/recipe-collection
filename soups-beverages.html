@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soups & Beverages | Bhutanese Recipes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Category Header -->
+    <header class="category-header py-4">
+        <div class="container text-center">
+            <h1 class="display-5 fw-bold">Soups & Beverages</h1>
+            <p class="lead">Traditional Bhutanese warming soups and drinks</p>
+        </div>
+    </header>
+
+    <!-- Recipes Grid -->
+    <section class="container py-5">
+        <div class="row g-4">
+            <!-- Soup: Bathup -->
+            <div class="col-md-6 col-lg-4">
+                <div class="recipe-card h-100">
+                    <div class="recipe-image-wrapper">
+                        <img src="bathup.jpg" alt="Bathup" class="recipe-image">
+                        <span class="recipe-category" data-category="soup">Soup</span>
+                    </div>
+                    <div class="recipe-content">
+                        <h3>Bathup (Bhutanese Noodle Soup)</h3>
+                        <p class="recipe-description">A hearty noodle soup perfect for cold Bhutanese evenings.</p>
+                        <div class="recipe-meta mb-3">
+                            <span><i class="far fa-clock"></i> 45 mins</span>
+                            <span><i class="fas fa-fire"></i> Medium</span>
+                        </div>
+                        <div class="recipe-details">
+                            <h4>Ingredients:</h4>
+                            <ul class="ingredients-list">
+                                <li>200g wheat flour</li>
+                                <li>100g minced meat (beef or pork)</li>
+                                <li>1 onion (chopped)</li>
+                                <li>2 cloves garlic (minced)</li>
+                                <li>1 tbsp ginger (grated)</li>
+                                <li>1 tomato (chopped)</li>
+                                <li>2 green chilies (sliced)</li>
+                                <li>1 tbsp butter</li>
+                                <li>4 cups meat stock or water</li>
+                                <li>Salt to taste</li>
+                                <li>Fresh coriander for garnish</li>
+                            </ul>
+                            <button class="btn btn-primary mt-3" type="button" 
+                                    data-bs-toggle="collapse" 
+                                    data-bs-target="#bathupInstructions" 
+                                    aria-expanded="false">
+                                View Recipe Instructions
+                            </button>
+                            <div class="collapse mt-3" id="bathupInstructions">
+                                <div class="recipe-instructions card card-body">
+                                    <h5>Instructions:</h5>
+                                    <ol class="instructions-list">
+                                        <li>Make dough with wheat flour and water. Let rest for 15 minutes.</li>
+                                        <li>Roll dough thin and cut into small square pieces.</li>
+                                        <li>In a pot, sauté onions, garlic, and ginger until fragrant.</li>
+                                        <li>Add minced meat and cook until browned.</li>
+                                        <li>Add tomatoes, chilies, and stock; bring to a boil.</li>
+                                        <li>Add the dough pieces and simmer until they float to the top.</li>
+                                        <li>Add butter and salt; simmer for 5 more minutes.</li>
+                                        <li>Garnish with coriander and serve hot.</li>
+                                    </ol>
+                                    <div class="recipe-tips mt-3">
+                                        <h5>Tips:</h5>
+                                        <ul class="tips-list">
+                                            <li>Make the dough pieces uniform in size for even cooking</li>
+                                            <li>Use beef or pork stock for richer flavor</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Beverage: Suja -->
+            <div class="col-md-6 col-lg-4">
+                <div class="recipe-card h-100">
+                    <div class="recipe-image-wrapper">
+                        <img src="suja.jpg" alt="Suja" class="recipe-image">
+                        <span class="recipe-category">Beverage</span>
+                    </div>
+                    <div class="recipe-content">
+                        <h3>Suja (Butter Tea)</h3>
+                        <p class="recipe-description">Traditional Bhutanese butter tea served throughout the day.</p>
+                        <div class="recipe-meta mb-3">
+                            <span><i class="far fa-clock"></i> 15 mins</span>
+                            <span><i class="fas fa-fire"></i> Mild</span>
+                        </div>
+                        <div class="recipe-details">
+                            <h4>Ingredients:</h4>
+                            <ul class="ingredients-list">
+                                <li>4 cups water</li>
+                                <li>2 tablespoons black tea leaves</li>
+                                <li>1/4 teaspoon salt</li>
+                                <li>2 tablespoons butter</li>
+                                <li>1/4 cup milk</li>
+                            </ul>
+                            <button class="btn btn-primary mt-3" type="button" 
+                                    data-bs-toggle="collapse" 
+                                    data-bs-target="#sujaInstructions" 
+                                    aria-expanded="false">
+                                View Recipe Instructions
+                            </button>
+                            <div class="collapse mt-3" id="sujaInstructions">
+                                <div class="recipe-instructions card card-body">
+                                    <h5>Instructions:</h5>
+                                    <ol class="instructions-list">
+                                        <li>Boil water in a pot and add tea leaves. Simmer for 3-4 minutes.</li>
+                                        <li>Strain the tea into a wooden container or blender.</li>
+                                        <li>Add salt, butter, and milk.</li>
+                                        <li>Blend or churn vigorously until frothy.</li>
+                                        <li>Pour into cups and serve hot.</li>
+                                    </ol>
+                                    <div class="recipe-tips mt-3">
+                                        <h5>Tips:</h5>
+                                        <ul class="tips-list">
+                                            <li>Use high-quality butter for best results</li>
+                                            <li>Traditional churning gives the best texture</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Beverage: Ara -->
+            <div class="col-md-6 col-lg-4">
+                <div class="recipe-card h-100">
+                    <div class="recipe-image-wrapper">
+                        <img src="ara.jpg" alt="Ara" class="recipe-image">
+                        <span class="recipe-category">Beverage</span>
+                    </div>
+                    <div class="recipe-content">
+                        <h3>Ara (Traditional Rice Wine)</h3>
+                        <p class="recipe-description">Traditional homemade rice wine often served during ceremonies and festivals.</p>
+                        <div class="recipe-meta mb-3">
+                            <span><i class="far fa-clock"></i> 7 days</span>
+                            <span><i class="fas fa-fire"></i> Mild</span>
+                        </div>
+                        <div class="recipe-details">
+                            <h4>Ingredients:</h4>
+                            <ul class="ingredients-list">
+                                <li>2 cups glutinous rice</li>
+                                <li>1 tbsp yeast starter (marchang)</li>
+                                <li>Water</li>
+                            </ul>
+                            <button class="btn btn-primary mt-3" type="button" 
+                                    data-bs-toggle="collapse" 
+                                    data-bs-target="#araInstructions" 
+                                    aria-expanded="false">
+                                View Recipe Instructions
+                            </button>
+                            <div class="collapse mt-3" id="araInstructions">
+                                <div class="recipe-instructions card card-body">
+                                    <h5>Instructions:</h5>
+                                    <ol class="instructions-list">
+                                        <li>Wash rice thoroughly and soak for 6 hours.</li>
+                                        <li>Cook rice until soft but not mushy.</li>
+                                        <li>Cool rice to room temperature.</li>
+                                        <li>Mix in yeast starter thoroughly.</li>
+                                        <li>Transfer to a clean airtight container.</li>
+                                        <li>Cover and let ferment for 5-7 days in a warm place.</li>
+                                        <li>Once fermented, strain or distill as per preference.</li>
+                                        <li>Serve at room temperature or warm.</li>
+                                    </ol>
+                                    <div class="recipe-tips mt-3">
+                                        <h5>Tips:</h5>
+                                        <ul class="tips-list">
+                                            <li>Use glutinous rice for best results</li>
+                                            <li>Maintain consistent temperature during fermentation</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

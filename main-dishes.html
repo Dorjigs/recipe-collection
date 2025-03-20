@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Dishes | Bhutanese Recipes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="bhutanese-food.jpg" alt="Logo" width="40" class="d-inline-block align-text-top me-2">
+                Bhutanese Flavors
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Main Dishes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sidedishes.html">Side Dishes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="soups-beverages.html">Soups & Beverages</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Category Header -->
+    <header class="category-header py-4">
+        <div class="container text-center">
+            <h1 class="display-5 fw-bold">Main Dishes</h1>
+            <p class="lead">Discover authentic Bhutanese main courses</p>
+        </div>
+    </header>
+
+    <!-- Recipes Grid -->
+    <section class="container py-5">
+        <div class="row g-4">
+            <!-- Recipe Card: Ema Datshi -->
+            <div class="col-md-6 col-lg-4">
+                <div class="recipe-card h-100">
+                    <div class="recipe-image-wrapper">
+                        <img src="ema_datshi_2776.jpg" alt="Ema Datshi" class="recipe-image">
+                        <span class="recipe-category">Main Dish</span>
+                    </div>
+                    <div class="recipe-content">
+                        <h3>Ema Datshi</h3>
+                        <p class="recipe-description">Bhutan's iconic national dish combining chilies and cheese.</p>
+                        <div class="recipe-meta mb-3">
+                            <span><i class="far fa-clock"></i> 30 mins</span>
+                            <span><i class="fas fa-fire"></i> Spicy</span>
+                        </div>
+                        <div class="recipe-details">
+                            <h4>Ingredients:</h4>
+                            <ul class="ingredients-list">
+                                <li>6-8 green chilies (sliced)</li>
+                                <li>1 onion (sliced)</li>
+                                <li>2 cloves garlic (minced)</li>
+                                <li>1 tomato (chopped)</li>
+                                <li>1 cup Bhutanese cheese</li>
+                                <li>2 tbsp butter</li>
+                            </ul>
+                            <button class="btn btn-primary mt-3" type="button" 
+                                    data-bs-toggle="collapse" 
+                                    data-bs-target="#emaDatshiInstructions" 
+                                    aria-expanded="false">
+                                View Recipe Instructions
+                            </button>
+                            <div class="collapse mt-3" id="emaDatshiInstructions">
+                                <div class="recipe-instructions card card-body">
+                                    <h5>Instructions:</h5>
+                                    <ol class="instructions-list">
+                                        <li>Slice chilies lengthwise and remove seeds if desired.</li>
+                                        <li>In a pot, combine chilies, sliced onions, and water.</li>
+                                        <li>Bring to a boil and simmer for 5 minutes.</li>
+                                        <li>Add cheese and butter, stirring until melted.</li>
+                                        <li>Season with salt to taste.</li>
+                                        <li>Simmer until the sauce thickens.</li>
+                                    </ol>
+                                    <div class="recipe-tips mt-3">
+                                        <h5>Tips:</h5>
+                                        <ul class="tips-list">
+                                            <li>Use fresh green chilies for best results</li>
+                                            <li>Traditional Bhutanese cheese can be substituted with feta</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recipe Card: Kewa Datshi -->
+            <div class="col-md-6 col-lg-4">
+                <div class="recipe-card h-100">
+                    <div class="recipe-image-wrapper">
+                        <img src="kewa_datshi_4060.jpg" alt="Kewa Datshi" class="recipe-image">
+                        <span class="recipe-category">Main Dish</span>
+                    </div>
+                    <div class="recipe-content">
+                        <h3>Kewa Datshi</h3>
+                        <p class="recipe-description">A comforting potato and cheese dish beloved throughout Bhutan.</p>
+                        <div class="recipe-meta mb-3">
+                            <span><i class="far fa-clock"></i> 25 mins</span>
+                            <span><i class="fas fa-fire"></i> Mild</span>
+                        </div>
+                        <div class="recipe-details">
+                            <h4>Ingredients:</h4>
+                            <ul class="ingredients-list">
+                                <li>2 potatoes (thinly sliced)</li>
+                                <li>1 onion (sliced)</li>
+                                <li>1 cup Bhutanese cheese (or feta)</li>
+                                <li>1 tbsp butter</li>
+                                <li>1 cup water</li>
+                                <li>Salt to taste</li>
+                            </ul>
+                            <button class="btn btn-primary mt-3" type="button" 
+                                    data-bs-toggle="collapse" 
+                                    data-bs-target="#kewaInstructions" 
+                                    aria-expanded="false">
+                                View Recipe Instructions
+                            </button>
+                            <div class="collapse mt-3" id="kewaInstructions">
+                                <div class="recipe-instructions card card-body">
+                                    <h5>Instructions:</h5>
+                                    <ol class="instructions-list">
+                                        <li>Peel and slice potatoes into thin rounds.</li>
+                                        <li>In a pot, combine potatoes, sliced onions, and water.</li>
+                                        <li>Bring to a boil and cook until potatoes are tender.</li>
+                                        <li>Add cheese and butter, stirring until melted.</li>
+                                        <li>Season with salt to taste.</li>
+                                        <li>Simmer until sauce thickens.</li>
+                                    </ol>
+                                    <div class="recipe-tips mt-3">
+                                        <h5>Tips:</h5>
+                                        <ul class="tips-list">
+                                            <li>Use waxy potatoes for best texture</li>
+                                            <li>Add chilies for extra heat if desired</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recipe Card: Shakam Datshi -->
+            <div class="col-md-6 col-lg-4">
+                <div class="recipe-card h-100">
+                    <div class="recipe-image-wrapper">
+                        <img src="shakamdatsi.jpg" alt="Shakam Datshi" class="recipe-image">
+                        <span class="recipe-category">Main Dish</span>
+                    </div>
+                    <div class="recipe-content">
+                        <h3>Shakam Datshi</h3>
+                        <p class="recipe-description">A hearty dried beef and cheese stew that's perfect for cold mountain nights.</p>
+                        <div class="recipe-meta mb-3">
+                            <span><i class="far fa-clock"></i> 40 mins</span>
+                            <span><i class="fas fa-fire"></i> Medium</span>
+                        </div>
+                        <div class="recipe-details">
+                            <h4>Ingredients:</h4>
+                            <ul class="ingredients-list">
+                                <li>200g dried beef (shakam), cut into small pieces</li>
+                                <li>1 onion (sliced)</li>
+                                <li>2 green chilies (sliced)</li>
+                                <li>1 cup Bhutanese cheese</li>
+                                <li>1 cup water</li>
+                                <li>Salt to taste</li>
+                            </ul>
+                            <button class="btn btn-primary mt-3" type="button" 
+                                    data-bs-toggle="collapse" 
+                                    data-bs-target="#shakamInstructions" 
+                                    aria-expanded="false">
+                                View Recipe Instructions
+                            </button>
+                            <div class="collapse mt-3" id="shakamInstructions">
+                                <div class="recipe-instructions card card-body">
+                                    <h5>Instructions:</h5>
+                                    <ol class="instructions-list">
+                                        <li>Soak dried beef in warm water for 30 minutes.</li>
+                                        <li>Cut beef into small pieces and boil until tender.</li>
+                                        <li>Add sliced onions and chilies, cook for 5 minutes.</li>
+                                        <li>Add cheese and simmer until melted.</li>
+                                        <li>Season with salt to taste.</li>
+                                        <li>Cook until the sauce reaches desired consistency.</li>
+                                    </ol>
+                                    <div class="recipe-tips mt-3">
+                                        <h5>Tips:</h5>
+                                        <ul class="tips-list">
+                                            <li>Pre-soaking the beef reduces cooking time</li>
+                                            <li>Add more water if sauce becomes too thick</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recipe Card: Phaksha Paa -->
+            <div class="col-md-6 col-lg-4">
+                <div class="recipe-card h-100">
+                    <div class="recipe-image-wrapper">
+                        <img src="phaksha-paa.jpeg" alt="Phaksha Paa" class="recipe-image">
+                        <span class="recipe-category">Main Dish</span>
+                    </div>
+                    <div class="recipe-content">
+                        <h3>Phaksha Paa</h3>
+                        <p class="recipe-description">A delicious pork and radish dish that's a staple in Bhutanese households.</p>
+                        <div class="recipe-meta mb-3">
+                            <span><i class="far fa-clock"></i> 45 mins</span>
+                            <span><i class="fas fa-fire"></i> Medium</span>
+                        </div>
+                        <div class="recipe-details">
+                            <h4>Ingredients:</h4>
+                            <ul class="ingredients-list">
+                                <li>300g pork (sliced)</li>
+                                <li>1 cup radish (sliced)</li>
+                                <li>2 dried red chilies</li>
+                                <li>2 cloves garlic (minced)</li>
+                                <li>1 tbsp ginger (grated)</li>
+                                <li>1 onion (chopped)</li>
+                                <li>1 tsp chili powder</li>
+                                <li>Salt to taste</li>
+                            </ul>
+                            <button class="btn btn-primary mt-3" type="button" 
+                                    data-bs-toggle="collapse" 
+                                    data-bs-target="#phakshaInstructions" 
+                                    aria-expanded="false">
+                                View Recipe Instructions
+                            </button>
+                            <div class="collapse mt-3" id="phakshaInstructions">
+                                <div class="recipe-instructions card card-body">
+                                    <h5>Instructions:</h5>
+                                    <ol class="instructions-list">
+                                        <li>Heat oil in a pan and add ginger and garlic.</li>
+                                        <li>Add pork and cook until browned.</li>
+                                        <li>Add onions and dried chilies, cook until onions soften.</li>
+                                        <li>Add radish and cook until tender.</li>
+                                        <li>Season with chili powder and salt.</li>
+                                        <li>Simmer until pork is fully cooked and tender.</li>
+                                    </ol>
+                                    <div class="recipe-tips mt-3">
+                                        <h5>Tips:</h5>
+                                        <ul class="tips-list">
+                                            <li>Use fatty pork for better flavor</li>
+                                            <li>Adjust chili quantity to taste</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recipe Card: Jasha Maru -->
+            <div class="col-md-6 col-lg-4">
+                <div class="recipe-card h-100">
+                    <div class="recipe-image-wrapper">
+                        <img src="jasha_maru_2896.jpg" alt="Jasha Maru" class="recipe-image">
+                        <span class="recipe-category">Main Dish</span>
+                    </div>
+                    <div class="recipe-content">
+                        <h3>Jasha Maru</h3>
+                        <p class="recipe-description">A flavorful spicy chicken curry that's popular across Bhutan.</p>
+                        <div class="recipe-meta mb-3">
+                            <span><i class="far fa-clock"></i> 30 mins</span>
+                            <span><i class="fas fa-fire"></i> Spicy</span>
+                        </div>
+                        <div class="recipe-details">
+                            <h4>Ingredients:</h4>
+                            <ul class="ingredients-list">
+                                <li>300g chicken (cubed)</li>
+                                <li>2 tomatoes (chopped)</li>
+                                <li>1 onion (sliced)</li>
+                                <li>2 cloves garlic (minced)</li>
+                                <li>1 tbsp ginger (grated)</li>
+                                <li>2 green chilies (sliced)</li>
+                                <li>1 tsp chili powder</li>
+                                <li>1 tbsp oil</li>
+                                <li>Salt to taste</li>
+                            </ul>
+                            <button class="btn btn-primary mt-3" type="button" 
+                                    data-bs-toggle="collapse" 
+                                    data-bs-target="#jashaInstructions" 
+                                    aria-expanded="false">
+                                View Recipe Instructions
+                            </button>
+                            <div class="collapse mt-3" id="jashaInstructions">
+                                <div class="recipe-instructions card card-body">
+                                    <h5>Instructions:</h5>
+                                    <ol class="instructions-list">
+                                        <li>Heat oil in a pan and sauté ginger and garlic.</li>
+                                        <li>Add chicken and cook until browned.</li>
+                                        <li>Add onions and cook until translucent.</li>
+                                        <li>Add tomatoes, green chilies, and chili powder.</li>
+                                        <li>Season with salt and cook until tomatoes break down.</li>
+                                        <li>Simmer until chicken is fully cooked.</li>
+                                    </ol>
+                                    <div class="recipe-tips mt-3">
+                                        <h5>Tips:</h5>
+                                        <ul class="tips-list">
+                                            <li>Use boneless chicken for faster cooking</li>
+                                            <li>Garnish with fresh cilantro</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recipe Card: Sikam Paa -->
+            <div class="col-md-6 col-lg-4">
+                <div class="recipe-card h-100">
+                    <div class="recipe-image-wrapper">
+                        <img src="sikampaa.png" alt="Sikam Paa" class="recipe-image">
+                        <span class="recipe-category">Main Dish</span>
+                    </div>
+                    <div class="recipe-content">
+                        <h3>Sikam Paa</h3>
+                        <p class="recipe-description">Traditional dried pork dish often reserved for special occasions.</p>
+                        <div class="recipe-meta mb-3">
+                            <span><i class="far fa-clock"></i> 40 mins</span>
+                            <span><i class="fas fa-fire"></i> Medium</span>
+                        </div>
+                        <div class="recipe-details">
+                            <h4>Ingredients:</h4>
+                            <ul class="ingredients-list">
+                                <li>200g dried pork (sikam)</li>
+                                <li>3-4 dry red chilies</li>
+                                <li>1 onion (sliced)</li>
+                                <li>1 tbsp ginger (chopped)</li>
+                                <li>2 cloves garlic (minced)</li>
+                                <li>1 cup water</li>
+                                <li>1 tsp Sichuan pepper (optional)</li>
+                                <li>Salt to taste</li>
+                            </ul>
+                            <button class="btn btn-primary mt-3" type="button" 
+                                    data-bs-toggle="collapse" 
+                                    data-bs-target="#sikamInstructions" 
+                                    aria-expanded="false">
+                                View Recipe Instructions
+                            </button>
+                            <div class="collapse mt-3" id="sikamInstructions">
+                                <div class="recipe-instructions card card-body">
+                                    <h5>Instructions:</h5>
+                                    <ol class="instructions-list">
+                                        <li>Soak dried pork in hot water for 15 minutes.</li>
+                                        <li>Cut into bite-sized pieces.</li>
+                                        <li>Heat oil and add ginger, garlic, and Sichuan pepper.</li>
+                                        <li>Add pork and cook until heated through.</li>
+                                        <li>Add onions and dried chilies.</li>
+                                        <li>Season with salt and cook until onions are soft.</li>
+                                    </ol>
+                                    <div class="recipe-tips mt-3">
+                                        <h5>Tips:</h5>
+                                        <ul class="tips-list">
+                                            <li>Sichuan pepper adds authentic flavor</li>
+                                            <li>Can be made spicier by adding more chilies</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('nav-search');
+    const searchResults = document.querySelector('.search-results-dropdown');
+
+    // Recipe database with direct links to sections
+    const recipes = [
+        {
+            name: 'Ema Datshi',
+            category: 'Main Dishes',
+            url: '#emaDatshiInstructions',
+            element: document.getElementById('emaDatshiInstructions')
+        },
+        {
+            name: 'Kewa Datshi',
+            category: 'Main Dishes',
+            url: '#kewaInstructions',
+            element: document.getElementById('kewaInstructions')
+        },
+        {
+            name: 'Shakam Datshi',
+            category: 'Main Dishes',
+            url: '#shakamInstructions',
+            element: document.getElementById('shakamInstructions')
+        },
+        {
+            name: 'Phaksha Paa',
+            category: 'Main Dishes',
+            url: '#phakshaInstructions',
+            element: document.getElementById('phakshaInstructions')
+        },
+        {
+            name: 'Jasha Maru',
+            category: 'Main Dishes',
+            url: '#jashaInstructions',
+            element: document.getElementById('jashaInstructions')
+        },
+        {
+            name: 'Sikam Paa',
+            category: 'Main Dishes',
+            url: '#sikamInstructions',
+            element: document.getElementById('sikamInstructions')
+        }
+    ];
+
+    searchInput.addEventListener('input', function(e) {
+        const searchTerm = e.target.value.toLowerCase().trim();
+        
+        if (searchTerm.length < 2) {
+            searchResults.style.display = 'none';
+            return;
+        }
+
+        const matches = recipes.filter(recipe => 
+            recipe.name.toLowerCase().includes(searchTerm)
+        );
+
+        if (matches.length > 0) {
+            searchResults.innerHTML = matches.map(recipe => `
+                <div class="search-result-item" onclick="scrollToRecipe('${recipe.url}')">
+                    <strong>${recipe.name}</strong>
+                    <span class="category-badge">${recipe.category}</span>
+                </div>
+            `).join('');
+            searchResults.style.display = 'block';
+        } else {
+            searchResults.innerHTML = '<div class="no-results">No recipes found</div>';
+            searchResults.style.display = 'block';
+        }
+    });
+
+    // Close search results when clicking outside
+    document.addEventListener('click', function(e) {
+        if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
+            searchResults.style.display = 'none';
+        }
+    });
+});
+
+// Function to scroll to recipe and expand instructions
+function scrollToRecipe(recipeId) {
+    const element = document.querySelector(recipeId);
+    if (element) {
+        element.classList.add('show');
+        element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+}
+</script>
+</body>
+</html>
